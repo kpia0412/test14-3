@@ -1,100 +1,98 @@
-<!-- @format -->
-
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./style.css" />
-		<title>My Profile</title>
-	</head>
-	<body>
-		<header>
-			<div class="img-container">
-				<img src="./assets/images/lab4.jpeg" alt="" class="img avatar" />
-			</div>
-			<div class="title-container">
-				<h1>Lê Quốc Tuấn</h1>
-				<h2>Sinh Viên</h2>
-			</div>
-		</header>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sơ yếu lý lịch bằng HTML & CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div id="page">
+    <div class="photo-and-name">
+        <img src="profile.png" class="photo" alt="Hình ảnh cá nhân">
+        <div class="contact-info-box">
+            <h1 class="name">Nguyễn Lưu Vinh</h1>
+            <br>
+            <h3 class="job-title">Senior Developer </h3>
+            <p class="contact-details">Điện thoại: +84393154558 &nbsp; - &nbsp; Email: nguyenluuvinh02@gmail.com</p>
+        </div>
+    </div>
+    <div id="objective">
+        <h3>Mục tiêu</h3>
+        <p>
+            星河轮转 触不及 彼岸 聚散清风 缓缓 飘向城池阑珊 掌中灵犀 诉说着 思念 花海凋落微光 我问心可有憾那一念残留 贪恋一次回眸 你跌落在怀中 别执迷等候 跨不过海与秋 困在记忆中消融 谁又懂呢浮生须臾 朝暮不停留 皎月皆似梦 不染尘 清晖洒下心动那一念残留 贪恋一次回眸 最初最后温柔 若执迷等候 跨不过海与秋 困在记忆中消融 谁又懂呢浮生须臾 错过却永恒 悲欢皆似梦 不染尘 宿命迢迢不休 掌中灵犀 诉说着 思念 花海凋落微光 我问心可有憾那一念残留 贪恋一次回眸 你跌落在怀中 别执迷等候 跨不过海与秋 困在记忆中消融 谁又懂呢浮生须臾 朝暮不停留 皎月皆似梦 不染尘 清晖洒下心动那一念残留 贪恋一次回眸 最初最后温柔 若执迷等候 跨不过海与秋 困在记忆中消融 谁又懂呢 浮生须臾 错过却永恒 悲欢皆似梦 不染尘 宿命迢迢不休.
+        </p>
+    </div>
+    <div id="education">
+        <h3>Học vấn</h3>
+        <table>
+            <tr class="school-1">
+                <td rowspan="2">20016 - 2019</td>
+                <td><b>Trường-1</b>: Trường ABC</td>
+            </tr>
+            <tr class="school-2">
+                <td><b>Trường-2</b>: Trường XYZ</td>
+            </tr>
+            
+            <tr class="school-1">
+                <td rowspan="2">2020 - 2022</td>
+                <td><b>Trường-1</b>: xxxxxxxxxxxx</td>
+            </tr>
+            <tr class="school-2">
+                <td><b>Trường-2</b>: xxxxxxxxxxxx</td>
+            </tr>
+            
+            <tr>
+                <td style="width: 120px; color: gray;">2015 - 2017</td>
+                <td><b>Trường</b>: xxxxxxxxxxxx</td>
+            </tr>
+        </table>
+    </div>
+    <div id="work">
+        <h3>Kinh nghiệm làm việc</h3>
+        <table>
+            <tr class="work-1">
+                <td>2022 - 2023</td>
+                <td><b>Công ty ABC</b>: Làm Quản lý Công nghệ thông tin</td>
+            </tr>
+            <tr class="work-2">
+                <td>2023 - Hiện tại</td>
+                <td><b>Công ty XYZ</b>: Làm Quản lý Công nghệ thông tin</td>
+            </tr>
+ 
+        </table>
+    </div>
+    <div id="bio-data">
+        <h3>Thông tin cá nhân</h3>
+        <table>
+            <tr>
+                <td>Họ tên:</td>
+                <td><b>Nguyễn Lưu Vinh</b></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><b>Ngày 04 tháng 12 năm 2002</b></td>
+            </tr>
+            <tr>
+                <td>CCCD:</td>
+                <td><b>XXXXXXX</b></td>
+            </tr>
+            <tr>
+                <td>Tôn giáo:</td>
+                <td><b>Không</b></td>
+            </tr>
+            <tr>
+                <td>Quốc tịch:</td>
+                <td><b>Viet Nam</b></td>
+            </tr>
+            <tr>
+                <td>Tình trạng hôn nhân:</td>
+                <td><b>Độc thân</b></td>
+            </tr>
+        </table>
+    </div>
+</div>
 
-		<div class="container">
-			<div class="sider">
-				<div class="sider-content">
-					<h1 class="tag-fill">Thông Tin</h1>
-					<div class="tag-content">
-						<ul>
-							<li>Nam</li>
-							<li>0972512831</li>
-							<li>Linh Trung, Thủ Đức</li>
-							<li>Hutech univercity</li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="sider-content">
-					<h1 class="tag-fill">Kinh nghiệm</h1>
-					<div class="tag-content">
-						<ul>
-							<li>chưa có</li>
-							
-							
-						</ul>
-					</div>
-				</div>
-				<div class="sider-content">
-					<h1 class="tag-fill">Hoạt động</h1>
-					<div class="tag-content">
-						<ul>
-							<li>chưa có</li>
-							
-							
-						</ul>
-					</div>
-				</div>
-				<div class="sider-content">
-					<h1 class="tag-fill">Chứng chỉ</h1>
-					<div class="tag-content">
-						
-						<ul class="text-content">
-							<li>chưa có</li>
-							
-					</div>
-				</div>
-			</div>
-			<div class="content">
-				<div>
-					<h1 class="tag">Giới thiệu</h1>
-					<p class="text-content">
-						hiện là sinh viên năm 4 tại hutech university
-					</p>
-				</div>
-				<div class="description-content">
-					<h1 class="tag">Kinh nghiệm làm việc</h1>
-					<ul>
-						<li>
-							<div class="tabbar-title">
-								<p class="text-content">Viết CV</p>
-								<p class="text-date">môn công cụ phát triển phần mềm</p>
-							</div>
-							
-						</li>
-					</ul>
-				</div>
-				<div class="description-content">
-					<h1 class="tag">Kinh nghiệm làm việc</h1>
-					<ul>
-						<li>
-							<div class="tabbar-title">
-								<p class="text-content">Viết CV</p>
-								<p class="text-date">14/03/2024</p>
-							</div>
-							
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</body>
+</body>
 </html>
